@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Suite]">
+  <parameter name="baseURL" value="http://test.protatechindia.com/wsrx-baseball/Home.aspx"/>
+  <parameter name="browser" value="firefox"/>
+  <test name="Test on firefox(failed)">
+    <parameter name="baseURL" value="http://test.protatechindia.com/wsrx-baseball/Home.aspx"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Test.CoachRegistrationTest">
+        <methods>
+          <include name="CoachRegistration"/>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- Test.CoachRegistrationTest -->
+    </classes>
+  </test> <!-- Test on firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

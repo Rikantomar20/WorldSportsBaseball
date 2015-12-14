@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false" verbose="2" >
+<test name="Test on firefox" >
+<parameter name="browser" value="firefox" />
+<parameter name="baseURL" value="http://test.protatechindia.com/wsrx-baseball/Home.aspx" />
+<classes>
+<!-- <class name="Test.CoachLoginTest" /> -->
+<class name="Test.CoachRegistrationTest" />
+</classes>
+</test>
+</suite>
